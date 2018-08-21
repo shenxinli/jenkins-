@@ -63,3 +63,4 @@ vi /usr/lib/systemd/system/docker.service
 [root@izwz9evja68nbrfvyzr9ecz docker]# curl http://127.0.0.1:5000/v2/_catalog
 </pre>
 
+![image](https://github.com/shenxinli/jenkins-/blob/master/show-docker-repo.png)
