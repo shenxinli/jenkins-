@@ -46,8 +46,10 @@ vi /usr/lib/systemd/system/docker.service
 配置构建属性
 ![image](https://github.com/shenxinli/jenkins-/blob/master/jenkins-task-build.png)
 
-上述配置完成后，已经可以在jenkins服务器上生成本地docker-image.
+上述配置完成后，已经可以在jenkins服务器上生成本地docker-image.点击[立即构建]，等待构建完成。
 <pre>
 [root@izwz9evja68nbrfvyzr9ecz docker]# docker images
 </pre>
 ![image](https://github.com/shenxinli/jenkins-/blob/master/docker-images-local.png)
+
+### 将本地docker-image，push到docker私有仓库中
