@@ -20,5 +20,5 @@ docker run -d -p 5000:5000 -v /opt/data/registry:/var/lib/registry  registry
 <pre>
 vi /usr/lib/systemd/system/docker.service
 </pre>
-写入docker-register的ip和端口号
+写入docker-register的ip和端口号,如下图<br/>
 ![image](https://github.com/shenxinli/jenkins-/blob/master/modify-docker-service.png)
