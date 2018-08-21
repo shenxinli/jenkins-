@@ -30,3 +30,4 @@ vi /usr/lib/systemd/system/docker.service
 
 在jenkins中配置配置私有docker仓库,[系统管理]-[系统设置]下新增云
 
+![image](https://github.com/shenxinli/jenkins-/blob/master/jenkins-docker-instance.png)
