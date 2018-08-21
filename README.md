@@ -1,5 +1,7 @@
 # jenkins-部署
 
+## 配置环境
+
 下载jenkins
 <pre>
 wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
@@ -31,3 +33,5 @@ vi /usr/lib/systemd/system/docker.service
 在jenkins中配置配置私有docker仓库,[系统管理]-[系统设置]下新增云
 
 ![image](https://github.com/shenxinli/jenkins-/blob/master/jenkins-docker-instance.png)
+
+## 创建部署任务
