@@ -13,6 +13,7 @@ nohup java -jar /usr/local/src/jenkins.war --ajp13Port=-1 --httpPort=8089 &
 
 安装jenkins的docker插件
 
+![image](https://github.com/shenxinli/jenkins-/blob/master/jenkins-docker-plugin.png)
 
 部署私有deoker仓库
 <pre>
@@ -26,3 +27,6 @@ vi /usr/lib/systemd/system/docker.service
 写入docker-register的ip和端口号,如下图：
 
 ![image](https://github.com/shenxinli/jenkins-/blob/master/modify-docker-service.png)
+
+在jenkins中配置配置私有docker仓库,[系统管理]-[系统设置]下新增云
+
