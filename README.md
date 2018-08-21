@@ -56,6 +56,10 @@ vi /usr/lib/systemd/system/docker.service
 ![image](https://github.com/shenxinli/jenkins-/blob/master/docker-images-local.png)
 
 ### 将本地docker-image，push到docker私有仓库中
+<pre>
+docker tag chinawaytek/eureka-server 127.0.0.1:5000/eureka-server:latest
+docker push 127.0.0.1:5000/eureka-server:latest
+</pre>
 
 ![image](https://github.com/shenxinli/jenkins-/blob/master/jenkins-post-steps.png)
 
