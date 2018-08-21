@@ -44,5 +44,5 @@ vi /usr/lib/systemd/system/docker.service
 ![image](https://github.com/shenxinli/jenkins-/blob/master/jenkins-task-properties.png)
 
 配置构建属性
-![image]()
+![image](https://github.com/shenxinli/jenkins-/blob/master/jenkins-task-build.png)
 
