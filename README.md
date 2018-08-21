@@ -18,7 +18,7 @@ nohup java -jar /usr/local/src/jenkins.war --ajp13Port=-1 --httpPort=8089 &
 ![image](https://github.com/shenxinli/jenkins-/blob/master/jenkins-docker-plugin.png)
 
 安装docker
-请参照https://github.com/shenxinli/kubernetes/blob/master/README.md
+请参照https://github.com/shenxinli/kubernetes/blob/master/README.md 中，安装docker一节
 
 部署私有deoker仓库
 <pre>
