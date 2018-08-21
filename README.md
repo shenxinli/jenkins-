@@ -56,3 +56,10 @@ vi /usr/lib/systemd/system/docker.service
 ![image](https://github.com/shenxinli/jenkins-/blob/master/docker-images-local.png)
 
 ### 将本地docker-image，push到docker私有仓库中
+
+![image](https://github.com/shenxinli/jenkins-/blob/master/jenkins-post-steps.png)
+
+<pre>
+[root@izwz9evja68nbrfvyzr9ecz docker]# curl http://127.0.0.1:5000/v2/_catalog
+</pre>
+
