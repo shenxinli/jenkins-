@@ -50,3 +50,4 @@ vi /usr/lib/systemd/system/docker.service
 <pre>
 [root@izwz9evja68nbrfvyzr9ecz docker]# docker images
 </pre>
+![image](https://github.com/shenxinli/jenkins-/blob/master/docker-images-local.png)
