@@ -39,6 +39,6 @@ vi /usr/lib/systemd/system/docker.service
 ![image](https://github.com/shenxinli/jenkins-/blob/master/new-jenkins-task.png)
 
 配置任务属性
-设置git远程库，和访问账户
+设置git远程库和访问账户
 
 ![image](https://github.com/shenxinli/jenkins-/blob/master/jenkins-task-properties.png)
