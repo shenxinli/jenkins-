@@ -56,6 +56,7 @@ vi /usr/lib/systemd/system/docker.service
 ![image](https://github.com/shenxinli/jenkins-/blob/master/docker-images-local.png)
 
 ### 将本地docker-image，push到docker私有仓库中
+由于jenkins服务器和docker私有仓库在同一台机器上，因此Ip用本地127.0.0.1
 <pre>
 docker tag chinawaytek/eureka-server 127.0.0.1:5000/eureka-server:latest
 docker push 127.0.0.1:5000/eureka-server:latest
