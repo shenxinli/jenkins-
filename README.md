@@ -35,3 +35,6 @@ vi /usr/lib/systemd/system/docker.service
 ![image](https://github.com/shenxinli/jenkins-/blob/master/jenkins-docker-instance.png)
 
 ## 创建部署任务
+
+![image](https://github.com/shenxinli/jenkins-/blob/master/new-jenkins-task.png)
+
