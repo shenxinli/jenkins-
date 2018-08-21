@@ -11,6 +11,9 @@ mv jenkins.war /usr/local/src/
 nohup java -jar /usr/local/src/jenkins.war --ajp13Port=-1 --httpPort=8089 &
 </pre>
 
+安装jenkins的docker插件
+
+
 部署私有deoker仓库
 <pre>
 docker run -d -p 5000:5000 -v /opt/data/registry:/var/lib/registry  registry
