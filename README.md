@@ -29,6 +29,10 @@ docker run -d -p 5000:5000 -v /opt/data/registry:/var/lib/registry  registry
 <pre>
 vi /usr/lib/systemd/system/docker.service
 </pre>
+增加参数
+<pre>
+--tls=false -H unix:///var/run/docker.sock -H tcp://0.0.0.0:4375 --insecure-registry 172.18.170.87:5000
+</pre>
 写入docker-register的ip和端口号,如下图：
 
 ![image](https://github.com/shenxinli/jenkins-/blob/master/modify-docker-service.png)
